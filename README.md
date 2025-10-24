@@ -67,11 +67,6 @@ It demonstrates KPI automation, operational risk segmentation, and insight deliv
 
 ---
 
-### 📦 Requirements
-
-
-
---
-
 > **Disclaimer:** This project uses synthetic data and simulated workflows inspired by general industry processes.  
+
 > It is not affiliated with, endorsed by, or sponsored by Amazon. I hold no rights to Amazon intellectual property.
