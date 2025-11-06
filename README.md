@@ -7,26 +7,26 @@
 
 
 ### 📊 Overview
-A data analytics project replicating Amazon’s **Returns & Reimbursement Risk Operations** to evaluate refund exposure, SLA performance, and fraud distribution across programs and markets.  
-The project uses **SQL, pandas, and Excel dashboards** to transform, aggregate, and visualize key risk metrics across 11,000 synthetic cases.
+A data analytics project simulating large-scale **returns and reimbursement operations** in an e-commerce environment to evaluate refund exposure, SLA performance, and fraud distribution across programs and markets.  
+The project uses **SQL, pandas, and Excel dashboards** to transform, aggregate, and visualize key operational and risk metrics across **11,000 synthetic refund cases**.
 
 ---
 
 ### 🎯 Objectives
-- Analyze program-level operational performance (OP, OTC, SAFE-T)
-- Detect patterns in refund exposure and fraud probability
-- Measure SLA breach rates and resolution efficiency
-- Create a multi-tab Excel dashboard for KPI visualization
-
+- Analyze program-level operational performance across simulated programs (Returns, Customer Refund, Risk Review)  
+- Detect patterns in refund exposure, fraudulent activity, and repeat claim behavior  
+- Measure SLA breach rates, resolution efficiency, and refund handling time  
+- Create a multi-tab Excel dashboard to visualize KPIs for operations, policy, and risk teams
+  
 ---
 
 ### 🧠 Tools & Workflow
-**SQL:** CTE-based queries for fraud rate %, SLA breach %, and refund KPIs  
-**Python (pandas, matplotlib):** Data processing, feature derivation, and export of clean CSVs  
-**Excel Dashboard:** Interactive visualization across three analytical tabs:
+**SQL:** Query logic for fraud rate %, SLA breach %, refund exposure, and trend segmentation  
+**Python (pandas, matplotlib):** Data processing, feature derivation, and CSV export for visualization  
+**Excel Dashboard:** Interactive reporting with three analytical tabs:
 1. **Overview Dashboard** – Summary KPIs (fraud %, SLA, handling time) by program and category  
-2. **Operational Efficiency Dashboard** – SLA breach analysis by market and program, fraud vs. time correlation  
-3. **Fraud Distribution Overview** – Category and seller-level fraud distribution, refund exposure, and risk tiers  
+2. **Operational Efficiency Dashboard** – SLA breach and resolution efficiency by region and program  
+3. **Fraud Distribution Dashboard** – Category and seller-level fraud segmentation, refund exposure, and risk tiers  
 
 ---
 
@@ -55,18 +55,20 @@ The project uses **SQL, pandas, and Excel dashboards** to transform, aggregate, 
 ---
 
 ### ⚙️ Technical Notes
-- Synthetic dataset mimics refund case data from Amazon programs  
+- Synthetic dataset mimics refund and return case patterns inspired by large-scale e-commerce operations  
+- Program names (e.g., SAFE-T, OP, OTC) are used as illustrative placeholders for generic workflows  
 - All metrics computed using SQL-based logic and pandas transformations  
 - Excel dashboard linked via exported CSVs (auto-refresh enabled)
-
+  
 ---
 
 ### 🚀 Results & Application
-This project replicates real-world **fraud analytics and risk reporting workflows** in Amazon operations, combining data engineering (SQL + pandas) with business intelligence (Excel dashboards).  
-It demonstrates KPI automation, operational risk segmentation, and insight delivery for fraud prevention teams.
+This project replicates **fraud analytics and risk reporting workflows** commonly found in large e-commerce reimbursement operations.  
+It demonstrates the integration of **data engineering (SQL + pandas)** with **business intelligence (Excel dashboards)** to enable KPI automation, operational risk segmentation, and policy-impact tracking.
 
 ---
 
-> **Disclaimer:** This project uses synthetic data and simulated workflows inspired by general industry processes.  
-
-> It is not affiliated with, endorsed by, or sponsored by Amazon. I hold no rights to Amazon intellectual property.
+> **Disclaimer:**  
+> This project uses synthetic data and simulated workflows inspired by real-world e-commerce reimbursement operations.  
+> It is not affiliated with, endorsed by, or sponsored by Amazon.  
+> All identifiers, program names, and claim types are illustrative and created solely for demonstration.
