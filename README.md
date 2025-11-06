@@ -1,4 +1,4 @@
-# Amazon Returns & Reimbursement Risk Analysis
+# E-Commerce Returns & Reimbursement Risk Analysis
 
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -72,3 +72,4 @@ It demonstrates the integration of **data engineering (SQL + pandas)** with **bu
 > This project uses synthetic data and simulated workflows inspired by real-world e-commerce reimbursement operations.  
 > It is not affiliated with, endorsed by, or sponsored by Amazon.  
 > All identifiers, program names, and claim types are illustrative and created solely for demonstration.
+
